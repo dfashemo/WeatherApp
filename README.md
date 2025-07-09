@@ -1,20 +1,19 @@
 # Weather App
 
-A responsive React application that shows the current 5-day forecast for any city or your current location, with support for Celsius/Fahrenheit and history of recent searches.
+A responsive React application that shows the current 5-day forecast for any city or your current location, with support for Celsius/Fahrenheit and history of recent searches!
 
 ## 🌤️ Features
 
 - **Search by city name** or **“Use My Location”** (browser Geolocation API)  
 - **Current conditions**: temperature, description, “feels like”, humidity, wind  
-- **5-day daily forecast** with icon, high/low, description  
-- **Hourly forecast** toggle with time-by-time temperatures  
+- **5-day daily forecast** with picture, high/low, description  
 - **Units toggle**: switch between °C (Metric) and °F (Imperial)  
 - **Recent searches** list for quick lookup  
 - **Responsive layout** built with Tailwind CSS  
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Setting Up!
 
 ### Prerequisites
 
@@ -44,9 +43,12 @@ A responsive React application that shows the current 5-day forecast for any cit
    ```
    - Enable **“Maps Platform Weather API”** and **“Geocoding API”** in Google Cloud Console  
    - Attach a billing account (free tier available)  
-   - (Optional) Restrict your key to `http://localhost:3000/*` for local testing
 
 ### Running the App
+
+Navigate to - https://demis-react-weather-app.netlify.app/
+
+OR
 
 ```bash
 npm start
@@ -55,7 +57,7 @@ yarn start
 ```
 
 - Opens at `http://localhost:3000`  
-- Live-reloads on code changes  
+- Live-reloads on code changes
 
 
 ---
@@ -101,8 +103,7 @@ weather-app/
 1. **Search** any city in the input and hit **Search**  
 2. **Click the 📍** button to use your current location  
 3. **Toggle units** between °C/°F with the dropdown  
-4. **Switch views** between Daily and Hourly forecasts  
-5. **Recent searches** appear at the bottom—click one to re-load  
+4. **Recent searches** appear at the bottom—click one to re-load  
 
 ---
 
@@ -112,19 +113,18 @@ weather-app/
 - **Axios** for HTTP requests  
 - **Tailwind CSS** for utility-first styling  
 - **Google Maps Platform**  
-  - Weather API (`currentConditions:lookup`, `forecast/days:lookup`, `forecast/hours:lookup`)  
+  - Weather API  
   - Geocoding API for city → lat/lon  
 - **Browser Geolocation API**
 
 ---
 
-## 🛠️ Future Improvements
+## 🛠️ Possible Improvements (Feel free to fork!!!)
 
 - Caching responses to reduce API calls  
-- Add graph/charts for temperature trends (e.g. using Recharts)  
+- Add graph/charts for temperature trends
 - Dark mode / theming  
-- Localization (multi-language support)  
-- Error retry and offline support (service worker)
+- Multi-language support 
 
 
-> Built with ❤️ by Demi Fashemo
+> Built by Demi Fashemo
