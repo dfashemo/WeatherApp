@@ -1,8 +1,8 @@
-# Weather App
+# 🌤️ ☔️ 🌈 Weather App!!!
 
 A responsive React application that shows the current 5-day forecast for any city or your current location, with support for Celsius/Fahrenheit and history of recent searches!
 
-## 🌤️ Features
+## ✏️ Features
 
 - **Search by city name** or **“Use My Location”** (browser Geolocation API)  
 - **Current conditions**: temperature, description, “feels like”, humidity, wind  
@@ -11,6 +11,14 @@ A responsive React application that shows the current 5-day forecast for any cit
 - **Recent searches** list for quick lookup  
 - **Responsive layout** built with Tailwind CSS  
 
+---
+## 🧪 Testing
+
+I removed my tests folder from the repo for web deployment purposes but I used
+
+- **Jest** to write unit tests and mock axios for my API wrappers
+- **React Hooks Testing Library** to test my useGeolocation and useWeather hooks
+  
 ---
 
 ## 🚀 Setting Up!
@@ -118,7 +126,7 @@ weather-app/
 - **Browser Geolocation API**
 
 ---
-
+  
 ## 🛠️ Possible Improvements (Feel free to fork!!!)
 
 - Caching responses to reduce API calls  
